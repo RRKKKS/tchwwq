@@ -336,7 +336,6 @@ async def _(event):
             if "Available" in isav:
                 await asyncio.sleep(1)
                 try:
-                    await message.reply_video
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''[  • -𝓓𝓸𝓷𝓮 𝓗𝓾𝓷𝓽𝓮𝓻 𝓤𝓼𝓮𝓻 .](https://t.me/vd_d_d/20)
